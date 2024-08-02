@@ -1,0 +1,76 @@
+.testimonial-section {
+  background: url(../images/testimonial/testimonial-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0 90px;
+}
+
+.testi-single-box {
+  opacity: 0.902;
+  background-color: #ffffff;
+  padding: 67px 190px 100px;
+}
+
+.testi-tittle h4 {
+  font-size: 22px;
+  line-height: 30px;
+  color: #505cfd;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.testi-tittle p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #595959;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+}
+
+.testi-paragrap p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #595959;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+}
+
+ul.slick-dots button {
+  font-size: 0;
+  border: 0;
+  position: relative;
+}
+ul.slick-dots button::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  border: 2px solid #595959;
+  border-radius: 50%;
+}
+
+ul.slick-dots li.slick-active button::before {
+  background: #595959;
+}
+
+ul.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+ul.slick-dots {
+  position: absolute;
+  bottom: 45px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}/*# sourceMappingURL=testimonial.css.map */

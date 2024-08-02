@@ -1,0 +1,74 @@
+.single-member {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.single-member::before {
+  position: absolute;
+  z-index: 1;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.2);
+  width: 85%;
+  height: 85%;
+  background: rgba(255, 255, 255, 0.9);
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+.single-member:hover::before {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, -50%) scale(1);
+}
+.single-member .team-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+}
+.single-member .team-text h3 {
+  color: #6a6a6a;
+  font-weight: 400;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+.single-member .team-text h5 {
+  color: #818181;
+  font-size: 16px;
+}
+.single-member .team-text h5,
+.single-member .team-text h3 {
+  transform: translateY(-200px);
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+}
+.single-member:hover .team-text h5,
+.single-member:hover .team-text h3 {
+  transform: translateY(0);
+  transition-delay: 0.3s;
+  opacity: 1;
+}
+.single-member .social-icon {
+  transform: translateY(200px);
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+}
+.single-member .social-icon ul {
+  margin-top: 20px;
+}
+.single-member .social-icon ul li {
+  display: inline-block;
+}
+.single-member .social-icon ul li a {
+  color: #434343;
+  padding: 0 10px;
+}
+.single-member:hover .social-icon {
+  transform: translateY(0);
+  transition-delay: 0.3s;
+  opacity: 1;
+}/*# sourceMappingURL=team.css.map */

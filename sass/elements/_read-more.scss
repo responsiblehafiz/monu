@@ -1,0 +1,36 @@
+
+.read-more-area {
+    padding: 90px 0 115px;
+  }
+  
+  .section-tittle {
+    h2 {
+      font-size: 32px;
+      line-height: 44px;
+      color: #404044;
+      font-weight: 600;
+      font-family: "Poppins", sans-serif;
+      margin-bottom: 45px;
+    }
+    p.hero {
+      font-size: 15px;
+      line-height: 25px;
+      color: #595959;
+      font-weight: 400;
+      font-family: "Rubik", sans-serif;
+      max-width: 550px;
+      position: relative;
+      margin: 32px 0 48px;
+      &:before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 60px;
+        height: 3px;
+        background-color: #505cfd;
+        margin-top: -32px;
+      }
+    }
+  }
+  

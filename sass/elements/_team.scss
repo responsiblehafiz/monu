@@ -1,0 +1,94 @@
+.single-member {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    &::before {
+      position: absolute;
+      z-index: 1;
+      content: "";
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(1.2);
+      width: 85%;
+      height: 85%;
+      background: rgb(255 255 255/90%);
+      transition: all 0.5s ease-in-out;
+      opacity: 0;
+      visibility: hidden;
+    }
+    &:hover::before {
+      opacity: 1;
+      visibility: visible;
+      transform: translate(-50%, -50%) scale(1);
+    }
+    .team-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      text-align: center;
+      h3 {
+        color: #6a6a6a;
+        font-weight: 400;
+        padding-top: 10px;
+        margin-bottom: 5px;
+      }
+      h5 {
+        color: #818181;
+        font-size: 16px;
+      }
+      h5,
+      h3 {
+        -webkit-transform: translateY(-200px);
+        -ms-transform: translateY(-200px);
+        transform: translateY(-200px);
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        opacity: 0;
+      }
+    }
+    &:hover {
+      .team-text {
+        h5,
+        h3 {
+          -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+          transform: translateY(0);
+          -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+          opacity: 1;
+        }
+      }
+    }
+    .social-icon {
+      -webkit-transform: translateY(200px);
+      -ms-transform: translateY(200px);
+      transform: translateY(200px);
+      -webkit-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+      opacity: 0;
+      ul {
+        margin-top: 20px;
+        li {
+          display: inline-block;
+          a {
+            color: #434343;
+            padding: 0 10px;
+          }
+        }
+      }
+    }
+    &:hover {
+      .social-icon {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-transition-delay: 0.3s;
+        transition-delay: 0.3s;
+        opacity: 1;
+      }
+    }
+  }
+  
+  

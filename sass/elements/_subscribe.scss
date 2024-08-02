@@ -1,0 +1,85 @@
+
+
+.subscribe-area {
+    background: url(../images/background/contact-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    padding: 60px 0 50px;
+    .section-tittle.style-two {
+      margin-bottom: 50px;
+    }
+    &::before {
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: rgba(255, 255, 255, 0.8);
+    }
+    .inner {
+      max-width: 1032px !important;
+      margin: auto;
+    }
+    .section-tittle.style-two {
+      p {
+        margin: 0;
+      }
+      h2 {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  
+  .section-tittle.style-two {
+    h2 {
+      font-size: 32px;
+      line-height: 44px;
+      color: #404044;
+      font-weight: 600;
+      font-family: "Poppins", sans-serif;
+      margin-bottom: 45px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 25px;
+      color: #595959;
+      font-weight: 400;
+      font-family: "Rubik", sans-serif;
+      max-width: 550px;
+      position: relative;
+      margin: 32px 0 48px;
+      display: inline-block;
+      &::before {
+        background: none;
+      }
+    }
+  }
+  
+  .subscribe-btn a {
+    border-radius: 23px;
+    background-color: #505cfd;
+    padding: 14px 50px;
+    color: #fff;
+  }
+  
+  .form-group input {
+    width: 100%;
+    border-radius: 23px;
+    border: none;
+    padding: 13px 23px;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    color: #808080;
+    font-weight: 400;
+    font-family: "Poppins";
+    &:focus-visible{
+      border: none;
+    }
+  }
+  
+  

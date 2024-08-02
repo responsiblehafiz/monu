@@ -1,0 +1,49 @@
+.container {
+    max-width: 1280px !important;
+    margin: auto;
+  }
+  
+  .custom-container {
+    max-width: 1176px !important;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .container {
+    max-width: 1170px;
+  }
+  .p-left {
+    float: left;
+  }
+  
+  .p-right {
+    float: right;
+  }
+  
+  .pb-70 {
+    padding-bottom: 70px;
+  }
+  
+  .pt-70 {
+    padding-top: 70px;
+  }
+  
+  .pt-50 {
+    padding-top: 50px;
+  }
+  
+  .pb-50 {
+    padding-bottom: 50px;
+  }
+  
+  .mb-35 {
+    margin-bottom: 35px;
+  }
+  
+  .fix {
+    overflow: hidden;
+  }
+  
+  

@@ -1,0 +1,64 @@
+.blog-section {
+  padding: 100px 0;
+}
+.blog-section .section-tittle h2 {
+  margin-bottom: 15px;
+}
+.blog-section .blog-single-box {
+  margin-top: 35px;
+}
+.blog-section .gx-30 {
+  --bs-gutter-x: 30px;
+}
+
+.blog-thumb {
+  overflow: hidden;
+}
+.blog-thumb img {
+  width: 100%;
+  transition: 0.3s;
+}
+
+.blog-content h6 {
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #595959;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+.blog-content h6::before {
+  position: absolute;
+  content: "";
+  top: 15px;
+  left: 65px;
+  width: 50px;
+  height: 1px;
+  background-color: #343434;
+}
+.blog-content h4.title {
+  font-size: 22px;
+  line-height: 30px;
+  color: #3f3f3f;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-top: 26px;
+}
+.blog-content p.details {
+  font-size: 16px;
+  line-height: 25px;
+  color: #595959;
+  font-weight: 400;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 30px;
+}
+.blog-content .blog-button .theme-button.style-two a {
+  padding: 15px 30px;
+  line-height: 1;
+  font-size: 12px;
+}
+
+.blog-single-box:hover .blog-thumb img {
+  transform: scale(1.1);
+}/*# sourceMappingURL=blog.css.map */
