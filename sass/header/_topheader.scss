@@ -1,0 +1,38 @@
+
+.header-top-menu {
+  padding: 22px 0 28px;
+  .header-top-menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .header-topbar-social {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      a i {
+        font-size: 32px;
+        color: #002c5d;
+      }
+      .header-topbar-text {
+        display: flex;
+        flex-direction: column;
+      }
+      .header-topbar-text {
+        span {
+          color: #616161;
+          font-family: "Source Sans 3", sans-serif;
+          font-size: 16px;
+          line-height: 22px;
+          font-weight: 400;
+        }
+        a {
+          color:  #002c5d;
+          font-family: "Source Sans 3", sans-serif;
+          font-size: 16px;
+          line-height: 26px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
